@@ -1,0 +1,100 @@
+/* Style 1 - Background Styling */
+
+body {
+  background-image: url("blue_sky.png");
+  width: 1300px;
+  margin: auto;
+  box-shadow: 0px 8px 16px 4px #FFFFFF;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+}
+
+/* Style 2 - Header Styling */
+
+h1 {
+  position: relative;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Style 3 - Main Content Styling */
+
+section {
+  position: relative;
+  background-color: #227c22;
+  padding: 0px 0px 135px 0px;
+  height: 1725px;
+  margin: 40px 0px 40px 0px;
+}
+
+div {
+  position: absolute;
+  top: 150px;
+  left: 2%;
+  width: 95%;
+}
+
+/* Style 4 - Image Positioning */
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Style 5 - Font Styling */
+
+h1 {
+  font-family: 'Lemonada';
+  font-size: 25px;
+}
+h2 {
+  font-family: 'Lemonada';
+  font-size: 20px;
+}
+p {
+  font-family: 'Lemonada';
+  font-size: 15px;
+}
+nav {
+  font-family: 'Lemonada';
+  font-size: 14px;
+}
+
+/* Required Navigation Styling */
+
+nav {
+  position: relative;
+  background-color: #7171b9;
+  bottom: 30px;
+  height: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  float: left;
+  position: relative;
+  left: 50%;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li {
+  position: relative;
+  float: left;
+  right: 50%;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 6px 50px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #4ac3ff;
+  color: black;
+}
